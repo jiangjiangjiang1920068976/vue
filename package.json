@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "webpack-dev-server --progress --open chrome --port 3000 --contentBase src --hot"
+    "dev": "webpack-dev-server --progress --open chrome --port 3000 --hot"
   },
   "keywords": [],
   "author": "",
@@ -16,6 +16,7 @@
     "mint-ui": "^2.2.13",
     "style-loader": "^1.1.3",
     "vue": "^2.6.11",
+    "vue-resource": "^1.5.1",
     "vue-router": "^3.1.5"
   },
   "devDependencies": {
